@@ -1,0 +1,39 @@
+.common-form
+{
+text-align: center;
+display: align-items-sm-start;
+display: flex;
+margin: 0%;
+flex-direction: column;
+width: 100%;
+}
+span{
+    color: #FFA400; 
+}
+.form-input{
+    height: 20px;
+    margin-bottom: 10px;
+    border: 2px solid #FFA400;
+    padding: 10px;
+    }
+    
+    .form-button{
+        border: 2px solid #FFA400;    
+        padding: 10px;
+        cursor: pointer;
+    }
+    .seller-auth{
+        display: flex;
+        text-align: center;
+        /* flex-direction: column; */
+        /* width:max-content; */
+        justify-content: center;
+    }
+    .signup,.login{
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color:#FFA400;
+      
+    }
